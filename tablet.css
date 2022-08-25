@@ -1,0 +1,163 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu
+{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+}
+#navbar img
+{
+    height: 50px;
+    width: 50px;
+}
+#navbar h1
+{
+    font-size: 1.6rem;
+}
+.hamburger
+{
+    margin-right: 4%;
+}
+.block
+{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+}
+.home
+{
+    height: 160vh;
+    flex-direction: column;
+}
+.photo
+{
+    padding: 0;
+    margin: 0;
+}
+.photo img
+{
+    height: 450px;
+    width: 230px;
+    margin-left: 30%;
+}
+.heading
+{
+    margin-top: 18%;
+    margin-left: 20%;
+    font-size: 1rem;
+}
+.form
+{
+    width:55%;
+    height: 450px;
+    margin-left: 26%;
+    margin-top: 5%;
+}
+#box
+{
+    width: 40vw;
+    height: 3.5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: text;
+}
+.one ,
+.two ,
+.three 
+{
+    margin: 0;
+}
+.one{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.two{
+    margin-left: 4%;
+}
+.three{
+    margin-left: 4%;
+}
+.one h4,
+.two h4,
+.three h4
+{
+    font-size: 0.9rem;
+}
+#four p,
+#five p
+{
+    font-size: 0.7rem;
+}
+#btn
+{
+    margin-top: 7%;
+}
+.footer
+{
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+}
+.logo img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+}
+.logo h1
+{
+    font-size: 1.5rem;
+    margin-top: 17%;
+}
+.company
+{
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.company h2
+{
+    margin-bottom: 20%;
+    margin-top: 32%;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.company h5
+{
+    font-size: 0.9rem;
+    padding: 0;
+}
+.useful-links
+{
+    margin: 0;
+}
+.useful-links h2
+{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 25%;
+    margin-bottom: 20%;
+    padding: 0;
+}
+.useful-links h5
+{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}

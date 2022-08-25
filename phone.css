@@ -1,0 +1,142 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    display: flex;
+    flex: 1;
+    margin-right: 0;
+    padding-right: 0;
+}
+.nav-menu
+{
+    padding: 0;
+    margin: 0;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+}
+#navbar img
+{
+    height: 25px;
+    width: 25px;
+}
+#navbar h1
+{
+    font-size: 1.2rem;
+}
+.hamburger
+{
+    margin-right: 5%;
+}
+.block
+{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 15%;
+}
+.home
+{
+    flex-direction: column;
+    height: 65vh;
+}
+.photo
+{
+    padding-left: 15%;
+    margin: 0;
+}
+.photo img
+{
+    
+    height: 300px;
+    width: 139px;
+    margin-left: 0;
+}
+.heading
+{
+    margin-top: 25%;
+    margin-left: 12%;
+    font-size: 0.6rem;
+}
+.form
+{
+    display: none;
+}
+#btn
+{
+    display: block;
+}
+.footer
+{
+    flex-direction: column;
+    width: 100%;
+    height: 540px;
+}
+.logo img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 5%;
+}
+.logo h1
+{
+    font-size: 1.5rem;
+    margin-top: 8%;
+}
+.company
+{
+    margin: 0;
+    margin-top: 18%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+}
+.company h2
+{
+    margin: 0;
+    padding: 0;
+}
+.company h5
+{
+    padding: 0;
+    margin: 0;
+}
+.useful-links
+{
+    margin: 0;
+    margin-left: 7%;
+}
+.useful-links h2
+{
+    margin: 0;
+    padding: 0;
+}
+.useful-links h5
+{
+    margin: 0;
+    padding: 0;
+}
+
+#btn 
+{
+    display: block;
+    width: 70vw;
+    height: 7vh;
+
+}
+.mobile
+{
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 30%;
+}
